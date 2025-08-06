@@ -18,17 +18,17 @@
 # # . Basic Operators
 
 
-a=30
-b=10
+# a=30
+# b=10
 
 
-c=a*b
-print(a+b)
-print(a-b)
-print(a*b)
-print(a/b)
-print(a**b)
-print(a%b)
+# c=a*b
+# print(a+b)
+# print(a-b)
+# print(a*b)
+# print(a/b)
+# print(a**b)
+# print(a%b)
 
 
 
@@ -128,8 +128,8 @@ print(a%b)
    # list and Tuples
 
       # Lists  are mutable, meaning you can change their content.
-my_list = [1, 2, 3, 4, 5, "apple" , "banana ","orange"]
-print(my_list) 
+# my_list = [1, 2, 3, 4, 5, "apple" , "banana ","orange"]
+# print(my_list) 
 # 🔷 1. List Slicing
 
 # Edit
@@ -426,8 +426,37 @@ print(my_list)
 
 # Decorators
 
-def greet(name):
-    return f"hello , {name}"
+# def greet(name):
+#     return f"hello , {name}"
 
-greet_fuc =greet("nidal")
-print(greet_fuc)
+# greet_fuc =greet("nidal")
+# print(greet_fuc)
+
+# def greet1(name):
+#     return f"hello,{name}"
+
+
+
+
+
+
+
+
+# import
+
+# import math
+
+# print(math.sqrt(16))  # Returns the square root of 16
+
+# from math import sqrt,pi
+# print(sqrt(25))  # Returns the square root of 25
+# print(pi)  # Returns the value of pi
+
+# print(dir(math))  # Lists all the attributes and methods of the math module
+
+# from calculator import add, sub, mul, div
+
+
+
+
+print(int("123ac"))
